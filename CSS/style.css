@@ -1,0 +1,377 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* common style or utilities  */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+span{
+    color: rgb(203, 216, 14);
+}
+
+
+header{
+    background-color: #0082e6;
+    height: 720px;
+    width: 100%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.container{
+    width: 75%;
+    background-color: #FFFFFF;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
+    padding: 0;
+}
+/* Nav style */
+nav{
+   
+    display: flex;
+    justify-content:space-between;
+}
+
+nav ul li {
+    display: inline-block;
+  
+    margin: 0 5px;
+    list-style: none;
+    position: relative;
+    left: 154px;
+    top: 42px;
+    
+}
+nav ul li a{
+    color: white;
+    font-size: 16px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+} 
+.login{
+    margin-top: 30px;
+    position: relative;
+    right: 124px;
+    top: 20px;
+}
+.login  li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+
+    
+}
+.login li a{
+    text-decoration: none;
+	color: white;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.btn{
+    box-shadow: 5px  gray;
+    padding: 10px;
+    background-color: #E02C6D;
+    
+
+}
+.btn i{
+    padding: 8px;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+#check{
+    display: none;
+}
+/* End nav style */
+
+/* Intro-style */
+.Intro-container{
+    display: flex;
+    
+}
+.half-width{
+   
+    width: 50%;
+    margin-left: 50px;
+    padding-left: 1%;
+}
+.half-width img{
+    width: 556.01px;
+    height: 438px;
+    position: relative;
+    top: 157px;
+}
+.half-width h1{
+    
+    font-size: 64px;
+    font-weight: bold;
+   
+    position: relative;
+    top: 160px;
+    left: 156px;
+    color: white;
+  
+}
+.half-width p{
+    margin-bottom: 50px;
+    color: rgb(97, 90, 90);
+}
+.half-width a{
+    position: relative;
+    top: 130px;
+    left: 156px;
+    
+    box-shadow: 2px  gray;
+    padding: 10px 15px;
+    background-color: #E02C6D;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+
+}
+.half-width a i{
+    padding-left: 8px;
+    
+}
+/* end intro style */
+/* player style */
+.title{
+    text-align: center;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    grid-column-gap: 30px; 
+    grid-row-gap: 30px;
+    
+}
+.player{
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 40px rgba(0, 0,0, 0.2);
+}
+.player .thumnil img{
+    width: 100%;
+
+}
+
+
+.player-info p{
+  
+    text-align: left;
+    
+}
+.player-info a{
+    box-shadow: 2px  gray;
+    
+    background-color: rgba(224, 44, 110, 0.514);
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    
+    position: relative;
+    bottom: 5px;
+    
+}
+/* end player style */
+/* Highlights style */
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+    margin-top: 100px;
+
+}
+.flexible-container p{
+    text-align: justify;
+    
+}
+.half-width1{
+   
+    width: 50%;
+    padding-left: 5%;
+    
+}
+.half-width1 h1{
+    
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+    margin-left: 120px;
+}
+.half-width1 p{
+    margin-left: 120px;
+}
+
+.half-width1 img{
+    width: 567px;
+    height: 427px;
+
+}
+.half-width1 a{
+    box-shadow: 2px  gray;
+    padding: 10px 15px;
+    background-color: #E02C6D;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    margin-left: 120px;
+}
+
+.half-width1 a i{
+    padding-left: 8px;
+    margin-top: 10px;
+    
+}
+/* end hightlights style */
+/* winner style  */
+.winner-container h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.winners{
+    
+     display: grid;
+    grid-template-columns: repeat(4,4fr);
+     grid-column-gap: 30px; 
+}
+
+.winner img{
+    width: 300px;
+    height: 250px;
+}
+.winner h3{
+    text-align: center;
+}
+
+/* end winner style */
+/* footer style */
+.footer{
+    text-align: center;
+    margin-bottom: 63px;
+    margin-top: 90px;
+}
+.logo-footer img{
+    width: 20%;
+}
+.icon-footer{
+    font-size: 2.2em;
+    color: lightsteelblue;
+    
+
+
+}
+.icon-footer i{
+    margin: 10px;
+    border-radius: 50%;
+}
+/* end footer style */
+
+
+/* Media queries */
+/* mobile device */
+@media only screen and (max-width: 700px){
+    .container{
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+    header{
+        height: 850px;
+    }
+/* Media queries for top-banner */
+   .top-banner{
+       justify-content: center;
+       flex-direction: column;
+   }
+    .half-width h1{
+       position: relative;
+       left: 0px;
+       top:112px;
+        font-size: 45px;
+    }
+    .half-width a{
+        position: relative; 
+        left: 0px;
+
+    }
+    .half-width img{
+        width: 329px;
+        height: 259.17px;
+        margin-top: 30px;
+    }
+    /* Media queries for player */
+    .players,.winners{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .player{
+        justify-content: center;
+        flex-direction: column;
+    }
+    /* Media queries for highlights*/
+    .flexible-container{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .half-width1 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+     }
+     .half-width1 h1{
+        position: relative;
+        left: 0px;
+        top:0px;
+        font-size: 30px;
+         
+         
+     }
+  
+     .half-width1 p{
+         float: left;
+         text-align: justify;
+         width: 100%;
+         position: relative;
+         left: 0;
+         overflow: hidden;
+         
+     }
+     .half-width1 img{
+         width: 329px;
+         height: 259.17px;
+         margin-top: 30px;
+         position: relative;
+         left: 30px;
+     }
+     .half-width1 a{
+         display: flex;
+         width: 80%;
+     }
+     /* Media queries for winner list*/
+     .winner{
+         position: relative;
+        left: 30px;
+     }
+
+}
+
