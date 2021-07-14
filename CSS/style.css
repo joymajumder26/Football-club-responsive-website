@@ -330,14 +330,17 @@ nav ul li:hover::after{
      display: grid;
     grid-template-columns: repeat(4,4fr);
      grid-column-gap: 30px; 
+     
 }
 
 .winner img{
     width: 300px;
     height: 250px;
+   
 }
 .winner img:hover{
     box-shadow: 0 0 40px #0082e6;
+    
 }
 .winner h3{
     text-align: center;
